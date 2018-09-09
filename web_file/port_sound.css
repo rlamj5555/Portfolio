@@ -1,0 +1,117 @@
+@charset "utf-8"; 
+@import url(http://ts.daumcdn.net/custom/blog/0/606/skin/images/nanumgothic.css);
+
+#wrap{width: 100%; height: 100%; font-family: '함초롬바탕';}
+
+ul.tp_mnu>li{ margin-right: 15px; display: inline-block; color: black; font-size: 17px;line-height: 50px;}
+
+ul.tp_mnu>li>a{padding: 8px; padding-top: 4px; padding-bottom: 4px; color: black;font-weight: 600;18px; background-color: white; border-radius: 15px;}
+
+ul.tp_mnu>li>a:hover{color: white; background-color: crimson; }
+ul.tp_mnu{position: absolute; top: 0px; width: 100%; height: 50px; text-align: right;background-color: black;}
+
+
+
+footer{ position:absolute;top: 700px;left: 270px; padding-top:10px;width: 80%; height: 30px; color: gray;  font-weight: 700; text-align: center; border: 1px solid transparent; border-top-color: gray;}
+
+div.backimg{position:absolute; top: 50px; width:240px; height:700px;; background-image: url(../../../portfolio_limited_2018.9.18/image_source/Photo%20by%20Tobias%20Tullius%20on%20Unsplash.jpg);}
+
+div.left{position: absolute;top: 50px; width: 240px; height: 700px; background-color: black; opacity: 0.6;}
+
+
+h1.tit{margin-top: 70px; margin-left: 10px; margin-right: 10px; color: white;font-size:23px;font-weight: 100; font-family: '함초롬바탕'; line-height: 25px}
+
+h1.tit>span.font{color: crimson; font-size: 32px; font-weight: 700;}
+
+ul.left{margin:80px 15px 0px; }
+
+ul.left>a>li{ margin-bottom: 20px; padding-left: 20px; height: 50px; font-size: 18px; font-family: 'nanum';line-height: 50px; border: 1px solid white; opacity: 0.4}
+
+ul.left>a>li.sound{color: white; border: 1px solid white; opacity: 1;}
+
+ul.left>a>li:hover{color: white; border: 1px solid white; opacity: 1;}
+
+div.cent{position: absolute; top: 60px; left: 250px; overflow-y: scroll; width: 1260px; height: 630px;}
+
+div.cent>h1{margin-top: 30px; margin-left: 10px;color: crimson;font-size:45px;font-weight: 100; font-family: '함초롬바탕';}
+
+p.reason{ margin:30px 30px 0; font-size: 18px; line-height: 25px;}
+
+
+
+div.compose{margin:50px 20px; 0; font-family: '함초롬바탕'; }
+
+div.compose>h2{color: black; font-size: 38px; font-weight: 200;}
+
+
+div.piano{margin:50px 20px; 0; font-family: '함초롬바탕';}
+
+div.piano>h2{color: black; font-size: 38px; font-weight: 200;}
+
+/*div.sound>div.music_1{display: inline-block;}
+div.sound>div.music_2{display: inline-block;}
+div.sound>div.music_3{display: inline-block;}
+div.sound>div.music_4{display: inline-block;}
+div.sound>div.music_5{display: inline-block;}
+div.sound>div.music_6{display: inline-block;}
+div.sound>div.music_7{display: inline-block;}
+div.sound>div.music_8{display: inline-block;}
+div.sound>div.music_9{display: inline-block;}
+div.sound>div.music_10{display: inline-block;}
+div.sound>div.music_11{display: inline-block;}
+div.sound>div.music_12{display: inline-block;}
+div.sound>div.music_13{display: inline-block;}
+div.sound>div.music_14{display: inline-block;}*/
+
+div.sound>div.music_1>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_2>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_3>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_4>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_5>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_6>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_7>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_8>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_9>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_10>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_11>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_12>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_13>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+div.sound>div.music_14>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+
+span.title{color: crimson;font-size: 30px; }
+img{margin-top: 50px; margin-left: 10px; width: 200px; height:200px; }
+img.album_1{margin-top: 40px;}
+
+audio{margin-bottom:65px; margin-left: 70px; }
+
+/*audio file에 공백이 없어야해*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
