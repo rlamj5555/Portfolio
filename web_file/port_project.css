@@ -17,7 +17,7 @@ ul.tp_mnu{position: absolute; top: 0px; width: 100%; height: 50px; text-align: r
 
 footer{ position:absolute;top: 700px;left: 270px; padding-top:10px;width: 80%; height: 30px; color: gray;  font-weight: 700; text-align: center; border: 1px solid transparent; border-top-color: gray;}
 
-div.backimg{position:absolute; top: 50px; width:240px; height:700px;; background-image: url(../image_source/Photo%20by%20Tobias%20Tullius%20on%20Unsplash.jpg);}
+div.backimg{position:absolute; top: 50px; width:240px; height:700px;; background-image: url(../image_source/Photo%20by%20Tobias%20Tullius%20on%2ㄴ0Unsplash.jpg);}
 
 div.left{position: absolute;top: 50px; width: 240px; height: 700px; background-color: black; opacity: 0.6;}
 
@@ -77,13 +77,37 @@ div.mu_2{display: inline-block;position: relative; top: -100px; left: 450px;}
 
 div.para_1{ position: relative; top: 90px; left: 20px;}
 
-h2.subtit{margin-top: 40px; margin-left: 20px;font-weight: 200;color: black;font-size: 38px;}
+h2.subtit{margin-top: 40px; margin-left: 20px;font-weight: 200;color: black; font-size: 45px;}
 
-div.illust>img{ position: relative; width: 400px;}
-div.illust>img.frst{top: -120px;left: 50px;}
-div.illust>img.sec{top: -30px; left: -360px;}
-div.illust>img.thrd{left: -200px;}
-div.illust>img.four{width: 600px; left: 60px;}
+div.illust>img.frst{margin-top: 20px;margin-left: 50px; width: 500px;}
+div.illust_para{margin-left: 25px; font-size: 25px;}
+div.illust_para>p{margin-left: 25px; font-size: 20px;}
+div.illust_para>h2{margin-bottom: 25px;}
+img.sec{margin-left: 30px; width: 500px;}
+
+div.etc{margin-top: 120px; margin-left: 25px;}
+div.etc>h2.subtit{margin-bottom: 25px;}
+div.etc>p.desc{margin-left: 25px; font-size: 20px;}
+
+div.etc>img{margin-top: 20px; width: 280px;}
+div.etc>img.frst{margin-left: 25px;}
+div.etc>img.sec{margin-left: 1px;}
+
+p.img_tit_1,p.img_tit_2,p.img_tit_3,p.img_tit_4{display: inline-block;margin-left: 88px; margin-bottom: 20px;}
+p.img_tit_2{margin-left: 148px;}
+p.img_tit_3{margin-left: 164px;}
+p.img_tit_4{margin-left: 168px;}
+
+div.cent>h1.project_2{margin-top: 80px;}
+div.etc{padding-bottom: 10px; width: 1180px; border: 1px solid transparent; border-bottom:1px solid grey;}
+
+div.graph>img.ui{margin-bottom: 20px; margin-left: 30px; width: 400px;}
+div.graph>img.select{margin-bottom: 20px;width:  400px; }
+
+div.graph>h3.scene{margin-left: 30px; margin-top: 30px;}
+
+img.map{margin-bottom: 20px; margin-left: 30px; width:500px;}
+
 
 
 
