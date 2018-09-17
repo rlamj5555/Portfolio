@@ -13,6 +13,8 @@ ul.tp_mnu{position: absolute; top: 0px; width: 100%; height: 50px; text-align: r
 
 
 
+
+
 footer{ position:absolute;top: 700px;left: 270px; padding-top:10px;width: 80%; height: 30px; color: gray;  font-weight: 700; text-align: center; border: 1px solid transparent; border-top-color: gray;}
 
 div.backimg{position:absolute; top: 50px; width:240px; height:700px;; background-image: url(../image_source/Photo%20by%20Tobias%20Tullius%20on%20Unsplash.jpg);}
@@ -24,7 +26,7 @@ h1.tit{margin-top: 70px; margin-left: 10px; margin-right: 10px; color: white;fon
 
 h1.tit>span.font{color: crimson; font-size: 32px; font-weight: 700;}
 
-ul.left{margin:80px 15px 0px; }
+ul.left{margin:80px 15px 0px;}
 
 ul.left>a>li{ margin-bottom: 20px; padding-left: 20px; height: 50px; font-size: 18px; font-family: 'nanum';line-height: 50px; border: 1px solid white; opacity: 0.4}
 
@@ -40,31 +42,50 @@ p.reason{ margin:30px 30px 0; font-size: 18px; line-height: 25px;}
 
 
 
+
 div.samdodong{margin:50px 20px; 0; font-family: '함초롬바탕'; }
 
 div.samdodong>h2{color: black; font-size: 38px; font-weight: 200;}
 
+a.url{color: crimson; font-weight: 100;}
+a.url:hover{font-weight: 800;}
+
+h2.subtit{margin-top: 40px; margin-left: 20px;}
+div.pt_1,div.pt_2,div.pt_3,div.pt_4,div.pt_5{margin-top: 20px; margin-left: 30px;}
+h3.scene{margin-bottom: 10px; font-size: 18px; color: black; font-weight: 300;}
+div.music_1{display: inline-block;position: absolute;margin-left: 80px; padding-left: 70px; width: 400px; height: 280px;  border: 1px solid transparent; border-left: 1px solid grey;}
+h3.bgm{font-size: 25px; margin-top: 20px;} 
+h4.title{margin-top: 30px; margin-bottom: 10px; font-size: 16px; font-weight: 600;}
 
 
-/*div.sound>div.music_1{display: inline-block;}
-div.sound>div.music_2{display: inline-block;}
-div.sound>div.music_3{display: inline-block;}
-div.sound>div.music_4{display: inline-block;}
-div.sound>div.music_5{display: inline-block;}
-div.sound>div.music_6{display: inline-block;}
-div.sound>div.music_7{display: inline-block;}
-div.sound>div.music_8{display: inline-block;}
-div.sound>div.music_9{display: inline-block;}
-div.sound>div.music_10{display: inline-block;}
-div.sound>div.music_11{display: inline-block;}
-div.sound>div.music_12{display: inline-block;}
-div.sound>div.music_13{display: inline-block;}
-div.sound>div.music_14{display: inline-block;}*/
+div.pt_5>div.para_1>p.sketch{margin-bottom:40px; font-size: 20px; color: black;line-height: 25px;}
 
+div.pt_5>div.para_1>h3.scene{display: inline-block; }
+h3.scene+p.sketch{display: inline-block; }
+div.sketch_1>audio{display: inline-block; }
 
-
-
+h4.title_mu{display: inline-block;margin-top: 30px; margin-bottom: 10px; font-size: 16px; font-weight: 600;}
 /*audio file에 공백이 없어야해*/
+
+div.pt_5>div.para_1>p.sketch>span{color: crimson;}
+div.pt_5>div.para_1>h3.scene{margin-top: 50px; font-size: 25px;}
+
+
+div.mu{display: inline-block;position: relative; top: -100px; left: 400px;padding-left: 60px; border-left: 1px solid grey;}
+
+div.mu_2{display: inline-block;position: relative; top: -100px; left: 450px;}
+
+div.para_1{ position: relative; top: 90px; left: 20px;}
+
+h2.subtit{margin-top: 40px; margin-left: 20px;font-weight: 200;color: black;font-size: 38px;}
+
+div.illust>img{ position: relative; width: 400px;}
+div.illust>img.frst{top: -120px;left: 50px;}
+div.illust>img.sec{top: -30px; left: -360px;}
+div.illust>img.thrd{left: -200px;}
+div.illust>img.four{width: 600px; left: 60px;}
+
+
 
 
 
