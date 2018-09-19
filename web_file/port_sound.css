@@ -75,7 +75,7 @@ div.sound>div.music_5>p{display: inline-block;  margin-left: 20px; padding-right
 
 div.sound>div.music_6>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
 
-div.sound>div.music_7>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
+div.sound>div.music_7>p{display: inline-block; margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
 
 div.sound>div.music_8>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
 
@@ -104,8 +104,20 @@ div.piano>div.music_1>p{display: inline-block;  margin-left: 20px; padding-right
 div.piano>div.music_2>p{display: inline-block;  margin-left: 20px; padding-right: 30px; width:500px; height: 200px; font-size: 15px;  line-height: 18px;border: 1px solid transparent; border-right-color:  grey;}
 
 
+img.mimic{position: absolute; width: 200px; height: auto; top: 430px; left: 900px;}
 /*audio file에 공백이 없어야해*/
+span.mimic{position: absolute; top: 625px; left: 950px; font-size: 11px; text-align: center;}
 
+audio.mimic{margin-bottom: 160px;}
+
+div.piano>p.reason{margin-bottom: 30px;}
+div.imp_1{display: inline-block;height: 170px; margin-top: 20px; border: 1px solid transparent; border-right-color:  grey;}
+div.imp_1>p{ margin-left: 30px;padding-top: 30px; padding-right: 30px; width:300px; height: 40px; font-size: 15px;  line-height: 18px;}
+div.imp_1>h2{margin-top: 10px; margin-left: 30px; color: crimson;font-size: 30px; font-weight: 100;}
+div.imp_1>audio{margin-top: 10px; margin-left: 20px;}
+div.imp_1:last-child{border:transparent;}
+
+div.imp_1>h2>span{display: block; margin-top: 15px; margin-left: 2px; font-size: 20px; color: black; }
 
 
 
